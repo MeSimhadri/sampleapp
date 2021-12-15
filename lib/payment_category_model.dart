@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class PaymentModel {
-  String? title, description, amount, percentage;
+  String? title, description, amount;
+  int? percentage;
   Color? colorone;
   Color? colortwo;
 
